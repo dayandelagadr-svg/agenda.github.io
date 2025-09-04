@@ -1,5 +1,6 @@
 # agenda.github.io
 agenda 2025/2026
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -170,6 +171,10 @@ agenda 2025/2026
 
             .time-management-grid .card {
                 border-color: #000;
+            }
+            
+            .section-page {
+                page-break-before: always;
             }
         }
 
@@ -927,7 +932,7 @@ agenda 2025/2026
     <hr>
     
     <section id="agenda-content">
-        <h2>Enero</h2>
+        <h2 class="section-page">Enero</h2>
         <div class="day-box">
             <h3>1 de enero de 2026, Jueves</h3>
             <p><strong>Tareas Pendientes:</strong></p>
@@ -1209,7 +1214,7 @@ agenda 2025/2026
         </div>
 
         <hr>
-        <h2>Febrero</h2>
+        <h2 class="section-page">Febrero</h2>
         <div class="day-box">
             <h3>1 de febrero de 2026, Domingo</h3>
             <p><strong>Tareas Pendientes:</strong></p>
@@ -1475,7 +1480,7 @@ agenda 2025/2026
         <hr>
 
         <!-- Nueva sección de Finanzas -->
-        <h2 class="finance-title">Diario de finanzas</h2>
+        <h2 class="finance-title section-page">Diario de finanzas</h2>
 
         <div class="finance-grid" style="grid-template-columns: repeat(3, 1fr);">
             <div class="finance-box">
@@ -1546,7 +1551,7 @@ agenda 2025/2026
         
         <!-- Nueva Sección de Plan de Alimentación -->
         <hr>
-        <div class="meal-plan-section">
+        <div class="meal-plan-section section-page">
             <h2>Plan de Alimentación Semanal</h2>
             <table class="meal-plan-table">
                 <thead>
@@ -1713,7 +1718,7 @@ agenda 2025/2026
         
         <!-- Nueva sección de Plan de limpieza -->
         <hr>
-        <div class="clean-plan-section">
+        <div class="clean-plan-section section-page">
             <h2>PLAN DE LIMPIEZA</h2>
 
             <table class="clean-plan-table">
@@ -1895,7 +1900,7 @@ agenda 2025/2026
         
         <!-- Nueva sección de Gestión de Tiempo -->
         <hr>
-        <div class="time-management-section">
+        <div class="time-management-section section-page">
             <h2>GESTIÓN DE TIEMPO</h2>
             <p class="subtitle">12 ACCIONES PARA LA GESTIÓN DEL TIEMPO</p>
 
@@ -1954,7 +1959,7 @@ agenda 2025/2026
         
         <!-- Nueva sección de Notas -->
         <hr>
-        <div class="notes-section">
+        <div class="notes-section section-page">
             <h2>Notas Rápidas</h2>
             <div class="notes-box">
                 <!-- Espacio para que el usuario escriba -->
@@ -1963,7 +1968,7 @@ agenda 2025/2026
 
         <!-- Nueva sección de Tablero de Metas -->
         <hr>
-        <div class="goals-section">
+        <div class="goals-section section-page">
             <h2>Tablero de Metas</h2>
             <p class="subtitle">Planea tus objetivos para lograr tus sueños.</p>
             <div class="goals-grid">
@@ -2056,7 +2061,7 @@ agenda 2025/2026
         
         <!-- Sección de Registro de Hábitos -->
         <hr>
-        <div class="habit-tracker-section">
+        <div class="habit-tracker-section section-page">
             <h2>Registro de Hábitos</h2>
             <div class="habit-grid">
                 <div class="habit-box">
@@ -2105,7 +2110,7 @@ agenda 2025/2026
 
         <!-- Sección de Contactos Importantes -->
         <hr>
-        <div class="contacts-section">
+        <div class="contacts-section section-page">
             <h2>Contactos Importantes</h2>
             <div class="contact-item">
                 <label for="nombre-contacto-1">Nombre:</label>
@@ -2147,623 +2152,13 @@ agenda 2025/2026
 
         <!-- Sección de Espacio Creativo -->
         <hr>
-        <div class="notes-section">
+        <div class="notes-section section-page">
             <h2>Espacio Creativo</h2>
             <div class="notes-box">
                 <!-- Espacio para que el usuario dibuje o escriba -->
             </div>
         </div>
         
-        <!-- Nueva Sección de Plan de Alimentación -->
-        <hr>
-        <div class="meal-plan-section">
-            <h2>Plan de Alimentación Semanal</h2>
-            <table class="meal-plan-table">
-                <thead>
-                    <tr>
-                        <th>Día</th>
-                        <th>Lunes</th>
-                        <th>Martes</th>
-                        <th>Miércoles</th>
-                        <th>Jueves</th>
-                        <th>Viernes</th>
-                        <th>Sábado</th>
-                        <th>Domingo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desayuno</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Almuerzo</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Cena</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Snacks</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <div class="shopping-list-container">
-                <div class="shopping-list-box">
-                    <h4>Verduras y Legumbres</h4>
-                    <ul>
-                        <li>Tomate</li>
-                        <li>Pepinos</li>
-                        <li>Lechuga</li>
-                        <li>Col de Bruselas</li>
-                        <li>Espárragos</li>
-                        <li>Champiñones</li>
-                        <li>Brócoli</li>
-                        <li>Pimiento</li>
-                        <li>Coliflor</li>
-                        <li>Cebolla</li>
-                        <li>Apio</li>
-                        <li>Remolacha</li>
-                        <li>Calabacín</li>
-                        <li>Berenjena</li>
-                        <li>Espinacas</li>
-                    </ul>
-                </div>
-                <div class="shopping-list-box">
-                    <h4>Cereales</h4>
-                    <ul>
-                        <li>Avena</li>
-                        <li>Bulgur</li>
-                        <li>Cebada</li>
-                        <li>Pasta Integral</li>
-                        <li>Maíz</li>
-                        <li>Arroz Integral</li>
-                        <li>Muesli sin azúcar</li>
-                        <li>Tortitas de arroz</li>
-                        <li>Trigo Sarraceno</li>
-                    </ul>
-                </div>
-                <div class="shopping-list-box">
-                    <h4>Grasas y Especias</h4>
-                    <ul>
-                        <li>Aceitunas</li>
-                        <li>Anacardos</li>
-                        <li>Nueces</li>
-                        <li>Ajo</li>
-                        <li>Linaza</li>
-                        <li>Aguacate</li>
-                        <li>Canela</li>
-                        <li>Sal de mar</li>
-                        <li>Hierbas y especias</li>
-                    </ul>
-                </div>
-                <div class="shopping-list-box">
-                    <h4>Proteínas</h4>
-                    <ul>
-                        <li>Pollo</li>
-                        <li>Pavo</li>
-                        <li>Carne magra</li>
-                        <li>Conejo</li>
-                        <li>Trucha</li>
-                        <li>Salmón</li>
-                        <li>Atún</li>
-                        <li>Marisco</li>
-                        <li>Dorada</li>
-                        <li>Requesón</li>
-                        <li>Yogur griego</li>
-                        <li>Leche semidesnatada</li>
-                        <li>Huevo/clara</li>
-                    </ul>
-                </div>
-                <div class="shopping-list-box">
-                    <h4>Proteínas Vegetales</h4>
-                    <ul>
-                        <li>Lentejas</li>
-                        <li>Garbanzos</li>
-                        <li>Soja</li>
-                        <li>Tempeh</li>
-                        <li>Seitán</li>
-                        <li>Tofu</li>
-                        <li>Guistsantes</li>
-                        <li>Judías</li>
-                        <li>Quinoa</li>
-                        <li>Verduras verdes</li>
-                        <li>Bebidas vegetales (sin azúcar)</li>
-                    </ul>
-                </div>
-                <div class="shopping-list-box">
-                    <h4>Frutas</h4>
-                    <ul>
-                        <li>Manzanas</li>
-                        <li>Toronja</li>
-                        <li>Naranjas</li>
-                        <li>Plátanos</li>
-                        <li>Pasas</li>
-                        <li>Sandía/Melón</li>
-                        <li>Cerezas</li>
-                        <li>Uvas</li>
-                        <li>Kiwi</li>
-                        <li>Piña</li>
-                        <li>Mango</li>
-                        <li>Melocotón</li>
-                        <li>Papaya</li>
-                        <li>Frutas congeladas</li>
-                        <li>Frutas del bosque</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Nueva sección de Plan de limpieza -->
-        <hr>
-        <div class="clean-plan-section">
-            <h2>PLAN DE LIMPIEZA</h2>
-
-            <table class="clean-plan-table">
-                <thead>
-                    <tr class="clean-header">
-                        <th>DIARIA</th>
-                        <th>L</th><th>M</th><th>M</th><th>J</th><th>V</th><th>S</th><th>D</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="daily-tasks">
-                        <td>Arreglar habitaciones</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Lavar platos</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Limpiar estufa</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Limpiar mesas</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Limpiar WC</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Aspirar</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="daily-tasks">
-                        <td>Trapear</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table class="clean-plan-table">
-                <thead>
-                    <tr class="clean-header">
-                        <th>SEMANAL</th>
-                        <th>S1</th><th>S2</th><th>S3</th><th>S4</th><th>S5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="weekly-tasks">
-                        <td>Quitar el polvo</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Tallar el piso</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Lavar regaderas</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Limpiar chapas y enchufes</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Lavar ropa</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Lavar sábanas</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Regar plantas</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="weekly-tasks">
-                        <td>Lavar patio</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <table class="clean-plan-table">
-                <thead>
-                    <tr class="clean-header">
-                        <th>QUINCENAL</th>
-                        <th>Q1</th><th>Q2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="biweekly-tasks">
-                        <td>Ir al Supermercado</td>
-                        <td></td><td></td>
-                    </tr>
-                    <tr class="biweekly-tasks">
-                        <td>Limpiar refrigerador</td>
-                        <td></td><td></td>
-                    </tr>
-                    <tr class="biweekly-tasks">
-                        <td>Lavar el carro</td>
-                        <td></td><td></td>
-                    </tr>
-                    <tr class="biweekly-tasks">
-                        <td>Lavar toallas</td>
-                        <td></td><td></td>
-                    </tr>
-                    <tr class="biweekly-tasks">
-                        <td>Lavar cortinas del baño</td>
-                        <td></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table class="clean-plan-table">
-                <thead>
-                    <tr class="clean-header">
-                        <th>MENSUAL</th>
-                        <th>E</th><th>F</th><th>M</th><th>A</th><th>M</th><th>J</th><th>J</th><th>A</th><th>S</th><th>O</th><th>N</th><th>D</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="monthly-tasks">
-                        <td>Limpiar cocina</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="monthly-tasks">
-                        <td>Limpiar clósets</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="monthly-tasks">
-                        <td>Limpiar vidrios PA</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="monthly-tasks">
-                        <td>Limpiar vidrios PB</td>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <table class="clean-plan-table">
-                <thead>
-                    <tr class="clean-header">
-                        <th>EVENTUAL</th>
-                        <th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="eventual-tasks">
-                        <td>Lavar sillones</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="eventual-tasks">
-                        <td>Lavar sillas</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="eventual-tasks">
-                        <td>Lavar cojines</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="eventual-tasks">
-                        <td>Lavar almohadas</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr class="eventual-tasks">
-                        <td>Limpiar techo de madera</td>
-                        <td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="note-box">
-                <h4>Notas adicionales:</h4>
-                <p>...</p>
-            </div>
-        </div>
-        
-        <!-- Nueva sección de Gestión de Tiempo -->
-        <hr>
-        <div class="time-management-section">
-            <h2>GESTIÓN DE TIEMPO</h2>
-            <p class="subtitle">12 ACCIONES PARA LA GESTIÓN DEL TIEMPO</p>
-
-            <div class="time-management-grid">
-                <div class="card regla">
-                    <h4>LA REGLA DE LOS 5 MINUTOS:</h4>
-                    <p>Si te toma menos de 5 minutos, hazlo ahora. Sí, incluso si es levantarte para estirarte. ¡La procrastinación es para estirarse, no para las tareas!</p>
-                </div>
-                <div class="card sapo">
-                    <h4>TRAGARSE EL SAPO PRIMERO</h4>
-                    <p>Aborda la tarea más difícil primero en la mañana. Los sapos saben mejor cuando no estás pensando en ellos todo el día.</p>
-                </div>
-                <div class="card pomodoro">
-                    <h4>TÉCNICA POMODORO</h4>
-                    <p>Trabaja durante 25 minutos, luego toma un descanso de 5 minutos. Repite. Porque incluso los tomates necesitan un descanso.</p>
-                </div>
-                <div class="card lista">
-                    <h4>HAZ UNA LISTA DE TAREAS</h4>
-                    <p>Escribe tus tareas y tachalas como hechos. Se siente como una pequeña victoria cada vez.</p>
-                </div>
-                <div class="card delegar">
-                    <h4>DELEGAR</h4>
-                    <p>Comparte tareas con otros. Recuerda, el trabajo en equipo hace que el sueño funcione (y te da más tiempo para ver series).</p>
-                </div>
-                <div class="card apps">
-                    <h4>USA APPS Y HERRAMIENTAS</h4>
-                    <p>Utiliza aplicaciones de productividad. Deja que la tecnología sea el jefe que te diga que vuelvas al trabajo.</p>
-                </div>
-                <div class="card limites">
-                    <h4>ESTABLECE LÍMITES</h4>
-                    <p>Aprende a decir no. Protege tu tiempo como si fuera el último trozo de pizza.</p>
-                </div>
-                <div class="card calendario">
-                    <h4>MANTÉN UN CALENDARIO</h4>
-                    <p>Programa tus tareas y citas. Porque recordar todo es para elefantes y computadoras, no para humanos.</p>
-                </div>
-                <div class="card cuidado">
-                    <h4>CUIDA DE TI MISMO</h4>
-                    <p>Duerme lo suficiente, haz ejercicio y come bien. Un cerebro cansado es como una computadora con Windows 95. Lento y propenso a fallar.</p>
-                </div>
-                <div class="card redes">
-                    <h4>LIMITA LAS REDES SOCIALES:</h4>
-                    <p>Usa bloqueadores de redes sociales durante las horas de trabajo. Facebook y Instagram pueden esperar; tu trabajo de investigación no puede.</p>
-                </div>
-                <div class="card multitarea">
-                    <h4>EVITA MULTITAREAS</h4>
-                    <p>Concéntrate en una tarea a la vez. La multitarea es solo hacer múltiples cosas mal al mismo tiempo.</p>
-                </div>
-                <div class="card revision">
-                    <h4>REFLEXIONA Y AJUSTA</h4>
-                    <p>Revisa tu progreso regularmente y ajusta según sea necesario. Es como el GPS que te redirige después de un giro equivocado.</p>
-                </div>
-            </div>
-        </div>
-
-        
-        <!-- Nueva sección de Notas -->
-        <hr>
-        <div class="notes-section">
-            <h2>Notas Rápidas</h2>
-            <div class="notes-box">
-                <!-- Espacio para que el usuario escriba -->
-            </div>
-        </div>
-
-        <!-- Nueva sección de Tablero de Metas -->
-        <hr>
-        <div class="goals-section">
-            <h2>Tablero de Metas</h2>
-            <p class="subtitle">Planea tus objetivos para lograr tus sueños.</p>
-            <div class="goals-grid">
-                <div>
-                    <div class="goal-category">Profesional y laboral</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Económica o financiera</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Salud y bienestar</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Espiritual o personal</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Vacacional y diversión</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Académico o Educativo</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-                <div>
-                    <div class="goal-category">Social o familiar</div>
-                    <div class="goal-item">1) <input type="text" /></div>
-                    <div class="goal-item">2) <input type="text" /></div>
-                    <div class="goal-item">3) <input type="text" /></div>
-                </div>
-                <div>
-                    <div class="goal-category">Estrategia para lograrlo</div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                    <div class="strategy-item"><div class="line"></div><div class="meta-check"></div></div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Sección de Registro de Hábitos -->
-        <hr>
-        <div class="habit-tracker-section">
-            <h2>Registro de Hábitos</h2>
-            <div class="habit-grid">
-                <div class="habit-box">
-                    <h4>Agua</h4>
-                    <div class="habit-days">
-                        <!-- Generar 31 casillas para los días del mes -->
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                    </div>
-                </div>
-                <div class="habit-box">
-                    <h4>Ejercicio</h4>
-                    <div class="habit-days">
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                    </div>
-                </div>
-                <div class="habit-box">
-                    <h4>Lectura</h4>
-                    <div class="habit-days">
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                    </div>
-                </div>
-                <div class="habit-box">
-                    <h4>Sueño</h4>
-                    <div class="habit-days">
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                        <div class="habit-day"></div><div class="habit-day"></div><div class="habit-day"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sección de Contactos Importantes -->
-        <hr>
-        <div class="contacts-section">
-            <h2>Contactos Importantes</h2>
-            <div class="contact-item">
-                <label for="nombre-contacto-1">Nombre:</label>
-                <input type="text" id="nombre-contacto-1" />
-            </div>
-            <div class="contact-item">
-                <label for="tel-contacto-1">Teléfono:</label>
-                <input type="text" id="tel-contacto-1" />
-            </div>
-            <div class="contact-item">
-                <label for="email-contacto-1">Email:</label>
-                <input type="text" id="email-contacto-1" />
-            </div>
-            <div class="contact-item">
-                <label for="nombre-contacto-2">Nombre:</label>
-                <input type="text" id="nombre-contacto-2" />
-            </div>
-            <div class="contact-item">
-                <label for="tel-contacto-2">Teléfono:</label>
-                <input type="text" id="tel-contacto-2" />
-            </div>
-            <div class="contact-item">
-                <label for="email-contacto-2">Email:</label>
-                <input type="text" id="email-contacto-2" />
-            </div>
-            <div class="contact-item">
-                <label for="nombre-contacto-3">Nombre:</label>
-                <input type="text" id="nombre-contacto-3" />
-            </div>
-            <div class="contact-item">
-                <label for="tel-contacto-3">Teléfono:</label>
-                <input type="text" id="tel-contacto-3" />
-            </div>
-            <div class="contact-item">
-                <label for="email-contacto-3">Email:</label>
-                <input type="text" id="email-contacto-3" />
-            </div>
-        </div>
-
-        <!-- Sección de Espacio Creativo -->
-        <hr>
-        <div class="notes-section">
-            <h2>Espacio Creativo</h2>
-            <div class="notes-box">
-                <!-- Espacio para que el usuario dibuje o escriba -->
-            </div>
-        </div>
-
     </section>
 
     <button onclick="window.print()" class="print-button">Imprimir Agenda</button>
@@ -2771,3 +2166,4 @@ agenda 2025/2026
 
 </body>
 </html>
+             
